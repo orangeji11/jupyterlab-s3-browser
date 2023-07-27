@@ -133,6 +133,12 @@ namespace Private {
             h.label({}, '(Optional) Session Token'),
             h.br(),
             h.input({ type: 'password', name: 'session_token' })
+          ),
+          h.br(),
+          h.p(
+            h.label({}, 'Use SSL'),
+            h.br(),
+            h.input({ type: 'boolean', name: 'use_ssl' })
           )
         ),
         h.br(),

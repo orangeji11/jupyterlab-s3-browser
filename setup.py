@@ -16,7 +16,7 @@ import setuptools
 HERE = Path(__file__).parent.resolve()
 
 # The name of the project
-name = "jupyterlab_s3_browser"
+name = "jupyterlab_s3_browser_uccps"
 
 # Get our version
 pkg_json = json.loads((HERE / "package.json").read_bytes())

@@ -47,6 +47,7 @@ If you wish to configure through environment variables, you can do so using envi
 export JUPYTERLAB_S3_ENDPOINT="https://s3.us.cloud-object-storage.appdomain.cloud"
 export JUPYTERLAB_S3_ACCESS_KEY_ID="my-access-key-id"
 export JUPYTERLAB_S3_SECRET_ACCESS_KEY="secret"
+export JUPYTERLAB_S3_USE_SSL="true"
 
 ```
 
